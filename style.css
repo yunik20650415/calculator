@@ -1,0 +1,95 @@
+/* For whole document */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* For header section */
+header h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive ;
+    font-weight: bolder;
+    font-size: 44px;
+}
+/* For main container */
+#container{
+    border: 2px solid rgb(105, 102, 102);
+    width: 50vw;
+    margin: 10px auto;
+    height: 80vh;
+    border-radius: 11px;
+    background-color: black;
+}
+/* For input section */
+#container input{
+    width: 98%;
+    height: 42px;
+    margin: 8px auto;
+    border-radius: 11px;
+    border: 1px solid  white;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+}
+/* For numbers collection  */
+#numbers{
+    width: 98%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3px;
+    justify-items:center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+/* For individual elements */
+.number{
+    width: 76%;
+    height: 76%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+}
+/* For =  */
+#equals_to{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width:95%;
+    background-color: rgb(6, 85, 255);
+}
+/* Bg colour for numbers */
+.real_num{
+    background-color: rgb(80, 80, 80);
+}
+/* Bg color for operators */
+.symbol{
+    background-color: rgb(255, 166, 0);
+}
+/* Bg col for clear */
+.clear{
+    background-color: red;
+}
+/* For scale hover  */
+.number:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/* For real num hover */
+.real_num:hover{
+    background-color: gray;
+}
+/* For symbols hover */
+.symbol:hover{
+    background-color: rgb(170, 153, 0);
+}
+/* For clear hover */
+.clear:hover{
+    background-color: rgb(150, 16, 16);
+}
+/* For = hover */
+#equals_to:hover{
+    background-color: rgb(26, 96, 226);
+}
