@@ -7,7 +7,7 @@
 header h1{
     text-align: center;
     margin-top: 20px;
-    font-family: cursive ;
+    font-family: Segoe UI ;
     font-weight: bolder;
     font-size: 44px;
 }
@@ -92,4 +92,15 @@ header h1{
 /* For = hover */
 #equals_to:hover{
     background-color: rgb(26, 96, 226);
+}
+/* For responsive design */
+@media only screen and (max-width:600px){
+    #container{
+        width: 80vw;
+    }
+}
+@media only screen and (max-width:300px){
+    #container{
+        width: 95vw;
+    }
 }
